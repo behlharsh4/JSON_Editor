@@ -1,0 +1,38 @@
+.key {
+  color: #623189;
+  font-weight: 500;
+}
+.value {
+  font-weight: 400;
+}
+.string {
+  color: #055e05;
+}
+.boolean {
+  color: #e72121;
+}
+.number {
+  color: #184eb3;
+}
+
+.json-editor-container {
+  max-height: 450px;
+  overflow: auto;
+  outline: solid 1px rgb(255, 54, 54);
+}
+.json-editor {
+  margin: 0px;
+  position: relative;
+  height: 600px;
+}
+
+.editorLine {
+  background-color: #fff;
+  height: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+.editorLine:hover {
+  background-color: rgb(235, 235, 235);
+}
